@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0,2,2,5,30&height=130&section=header" width="100%"/>
-
 <img src="./banner.svg" alt="Prem Kumar - ML | Full-Stack | Data Science | DSA" width="100%"/>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=16&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=560&lines=Turning+data+into+intelligent+systems;Solving+DSA+problems+across+3+platforms;Building+full-stack+apps+that+ship;Learning+something+new+every+day" />
@@ -27,15 +25,43 @@
 
 ## 🧑‍💻 `> whoami`
 
-```yaml
-name:      Prem Kumar
-degree:    B.Tech CSE (Data Science)
-college:   C. V. Raman Global University
-location:  India 🇮🇳
-focus:     [Machine Learning, Full-Stack, DSA]
-ask_me_about: [ML pipelines, Streamlit apps, React, problem solving]
-status:    ✅ Open to opportunities
-```
+<div align="center">
+
+<img src="./about.svg" alt="About Prem Kumar" width="100%"/>
+
+</div>
+
+<br>
+
+<details>
+<summary><b>🎓 Education</b> &nbsp;·&nbsp; <i>click to expand</i></summary>
+<br>
+
+B.Tech in **Computer Science & Engineering** with a specialization in **Data Science** at **C. V. Raman Global University**, India.
+
+</details>
+
+<details>
+<summary><b>🧭 What I'm exploring</b> &nbsp;·&nbsp; <i>click to expand</i></summary>
+<br>
+
+<img src="https://img.shields.io/badge/Generative%20AI-8B5CF6?style=flat-square" />
+<img src="https://img.shields.io/badge/LLM%20Apps-00D9FF?style=flat-square" />
+<img src="https://img.shields.io/badge/Data%20Analytics-FF4ECD?style=flat-square" />
+<img src="https://img.shields.io/badge/Kaggle-20BEFF?style=flat-square&logo=kaggle&logoColor=white" />
+<img src="https://img.shields.io/badge/Open%20Source-27C93F?style=flat-square" />
+
+</details>
+
+<details>
+<summary><b>💬 Ask me about</b> &nbsp;·&nbsp; <i>click to expand</i></summary>
+<br>
+
+- 🤖 Building ML pipelines and Streamlit dashboards
+- 🌐 React and full-stack basics
+- 🧠 Problem solving and DSA practice
+
+</details>
 
 ---
 
@@ -97,12 +123,57 @@ status:    ✅ Open to opportunities
 
 ## 🚀 `> projects`
 
-| Project | What it does | Stack | Links |
-|:--|:--|:--|:--|
-| 🧠 **LandVision AI** | Predicts early risk of land acquisition delays | `Python` `Scikit-learn` `Pandas` `Streamlit` | [🚀 Live Demo](https://landvision-olive.vercel.app/) |
-| 🌫️ **AQI Prediction** | Dashboard to analyse and predict Air Quality Index | `Python` `NumPy` `Scikit-learn` `Streamlit` | [💻 Source](https://github.com/Prem2403/AQI-prediction) |
-| 🧩 **Personality Predictor** | NLP-based personality prediction app | `TF-IDF` `LinearSVC` `Streamlit` `Plotly` | [💻 Source](https://github.com/Prem2403/Personality-Predictor) |
-| ⚽ **FIFA World Cup Live Hub** | Interactive football web app | `HTML` `CSS` `JavaScript` | [🚀 Live Demo](https://wc-live-hub.netlify.app/) |
+<p align="center"><i>👇 Click any card to open the live demo or the source code</i></p>
+
+<table>
+<tr>
+<td width="50%"><a href="https://landvision-olive.vercel.app/"><img src="./card-landvision.svg" alt="LandVision AI - live demo" width="100%"/></a></td>
+<td width="50%"><a href="https://github.com/Prem2403/AQI-prediction"><img src="./card-aqi.svg" alt="AQI Prediction - source code" width="100%"/></a></td>
+</tr>
+<tr>
+<td width="50%"><a href="https://github.com/Prem2403/Personality-Predictor"><img src="./card-personality.svg" alt="Personality Predictor - source code" width="100%"/></a></td>
+<td width="50%"><a href="https://wc-live-hub.netlify.app/"><img src="./card-fifa.svg" alt="FIFA World Cup Live Hub - live demo" width="100%"/></a></td>
+</tr>
+</table>
+
+<details>
+<summary><b>🔬 Peek under the hood</b> &nbsp;·&nbsp; <i>click to see how they work</i></summary>
+<br>
+
+**🌫️ AQI Prediction — pipeline**
+
+```mermaid
+flowchart LR
+  A["📂 Upload CSV<br/>city_day / station_day"] --> B["🧹 Clean &<br/>preprocess"]
+  B --> C["📊 EDA<br/>charts · heatmap"]
+  C --> D["🧠 Train<br/>Linear Reg · Random Forest"]
+  D --> E["📏 Evaluate<br/>RMSE · R²"]
+  E --> F["🎯 Predict AQI<br/>for new inputs"]
+```
+
+**🧩 Personality Predictor — pipeline**
+
+```mermaid
+flowchart LR
+  A["✍️ User text"] --> B["🔤 TF-IDF<br/>vectorizer"]
+  B --> C["🧠 LinearSVC<br/>classifier"]
+  C --> D["🧬 1 of 16<br/>MBTI types"]
+  D --> E["📡 Plotly radar<br/>+ famous matches"]
+```
+
+**⚽ FIFA World Cup Live Hub — site map**
+
+```mermaid
+flowchart LR
+  A["🏠 Home<br/>countdown"] --> B["📅 Schedule"]
+  A --> C["🗂 Groups"]
+  A --> D["🌍 Teams"]
+  A --> E["⭐ Players"]
+  A --> F["🏟️ Stadiums"]
+  A --> G["📺 Watch Live"]
+```
+
+</details>
 
 ---
 
@@ -146,29 +217,30 @@ status:    ✅ Open to opportunities
 
 ---
 
-## 🎯 `> roadmap`
+## 🏆 `> milestones`
 
-- [x] Built and deployed ML apps with Streamlit
-- [x] Shipped web projects on Vercel and Netlify
-- [x] Practising DSA on LeetCode, CodeChef and GFG
-- [ ] Master Graphs and Dynamic Programming
-- [ ] Build a full-stack Generative AI application
-- [ ] Compete and grow on Kaggle
-- [ ] Contribute to open source
+```bash
+$ cat milestones.log
+
+[✔] Deployed LandVision AI          → predictive analytics, live on Vercel
+[✔] Launched FIFA World Cup Live Hub → interactive web app, live on Netlify
+[✔] Built ML dashboards              → AQI prediction + MBTI personality predictor
+[✔] Opened first pull request        → team collaboration on LandVision (Sep 2026)
+[✔] Active on 4 coding platforms     → LeetCode · CodeChef · GFG · Kaggle
+[▶] Now learning                     → React · Node.js · MongoDB · SQL · Generative AI
+```
 
 ---
 
 <div align="center">
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+### 🤝 Got a project, an internship or an idea? Let's talk.
+
+<a href="mailto:pk2262126@gmail.com"><img src="https://img.shields.io/badge/Email%20Me-38BDF8?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/prem2403/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
 <br><br>
 
-**📫 Let's build something together**
-
-<a href="mailto:pk2262126@gmail.com"><img src="https://img.shields.io/badge/Say%20Hello-38BDF8?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-<a href="https://www.linkedin.com/in/prem2403/"><img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-
-<img src="https://capsule-render.vercel.app/api?type=slice&color=gradient&customColorList=0,2,2,5,30&height=110&section=footer" width="100%"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1200&color=8B5CF6&center=true&vCenter=true&width=460&lines=Thanks+for+stopping+by+%F0%9F%91%8B;Code.+Learn.+Build.+Repeat." />
 
 </div>
