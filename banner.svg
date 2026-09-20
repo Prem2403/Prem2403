@@ -64,7 +64,7 @@
   </rect>
   <rect x="4" y="4" width="892" height="292" rx="18" fill="none" stroke="#00D9FF" stroke-opacity="0.15" stroke-width="1.5"/>
 
-  <text x="40" y="95" font-family="Courier New, monospace" font-size="20" fill="#27C93F" opacity="0">$ whoami
+  <text x="40" y="95" font-family="Courier New, monospace" font-size="20" fill="#27C93F" opacity="0">$ who am I
     <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
   </text>
 
